@@ -13,7 +13,6 @@ namespace Users.Models
         public DateTime birthdate { get; set; }
         public string gender { get; set; }
 
-       
         public int CompareTo(User other)
         {
             if (this.birthdate.Month > other.birthdate.Month)
